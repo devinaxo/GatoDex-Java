@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.gatodex_java"
+    namespace = "com.devinaxo.gatodex_java"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.gatodex_java"
+        applicationId = "com.devinaxo.gatodex_java"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.01"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
