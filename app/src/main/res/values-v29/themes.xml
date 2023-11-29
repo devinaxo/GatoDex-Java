@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.GatoDexJava" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">#FFFFFF
+        </item> <!-- Set the default background color to white -->
+        <item name="colorPrimary">#FF4081</item> <!-- Set the primary color to violet -->
+        <item name="colorPrimaryDark">#FF4081
+        </item> <!-- Set the primary dark color to violet (status bar color) -->
+        <item name="colorAccent">#FF4081
+        </item> <!-- Set the accent color to violet (default button color) -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

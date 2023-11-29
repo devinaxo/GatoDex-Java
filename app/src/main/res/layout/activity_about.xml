@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/aboutToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="About GatoDex"
+        android:titleTextColor="@android:color/black"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:layout_below="@id/aboutToolbar"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="Hello.\n\nThis app was designed by me as a passion project, to dip my toes in Android development but most of all for my wife whom I love dearly, so we could register the street cats we meet each time we travel.\n\nIt has worked wonderfully.\n\nThanks for checking it out!\n\n\n"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/githubIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textViewAbout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:clickable="true"
+        android:src="@drawable/github" />
+
+    <TextView
+        android:id="@+id/githubName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/githubIcon"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="devinaxo"/>
+
+    <ImageView
+        android:id="@+id/twitterIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/githubName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:clickable="true"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        android:id="@+id/twitterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/twitterIcon"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="\@devinachoes"/>
+
+    <TextView
+        android:id="@+id/iconLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/twitterName"
+        android:clickable="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="12sp"
+        android:text="\n\n\n\Meowth icon by Roundicons Freebies"
+        android:focusable="true" />
+
+</RelativeLayout>

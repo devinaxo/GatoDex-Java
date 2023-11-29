@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="NoActionBarTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">#1c1b20</item> <!-- default background color -->
+        <item name="colorPrimary">#a796cc</item> <!-- primary color  -->
+        <item name="colorPrimaryDark">#a796cc</item> <!-- primary dark color (status bar color) -->
+        <item name="colorAccent">#a796cc</item> <!-- accent color (default button color) -->
+        <item name="android:navigationBarColor">#424242</item>
+
+    </style>
+
+    <style name="Theme.GatoDexJava" parent="NoActionBarTheme" />
+
+</resources>
